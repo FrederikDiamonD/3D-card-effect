@@ -30,6 +30,7 @@ body {
 }
 
 .sneaker {
+    transform-style: preserve-3d;
     min-height: 35vh;
     display: flex;
     align-items: center;
@@ -53,6 +54,10 @@ body {
     position: absolute;
     border-radius: 50%;
     z-index: 1;
+}
+
+.info {
+    transform-style: preserve-3d;
 }
 
 .info h1 {
@@ -91,8 +96,9 @@ button.active {
 }
 
 .purchase {
+    transform-style: preserve-3d;
     margin-top: 5rem;
-    transition: all 0.75s ease-out;
+    /* transition: all 0.75s ease-out; */
 }
 
 .purchase button {
@@ -104,4 +110,5 @@ button.active {
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+    transition: all 0.75s ease-out;
 }
